@@ -6,7 +6,7 @@ import Donated from "../Components/donors";
 import FloatBtn from "../Components/campaignFloatingBtns";
 import Loader from "../Components/loaderFullPage";
 import ScrollToTop from "../Components/scrollToTop";
-import { isNormalInteger } from "../utills/math";
+import { isNormalInteger } from "../utils/math";
 import { getCampaignData, deleteCampaign } from "../services/campaign";
 import { isAuthorised } from "../services/auth";
 import styles from "../Components/styles/campaign.module.css";
